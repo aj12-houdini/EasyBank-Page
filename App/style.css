@@ -3,7 +3,6 @@
 body {
   margin: 0;
   padding: 0;
-  color: black;
   font-family: "Public Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -12,6 +11,7 @@ a {
   text-decoration: none;
 }
 
+/* Navigation Bar  */
 header {
   background-color: white;
   position: relative;
@@ -44,13 +44,11 @@ ul li {
   font-weight: 400;
 }
 ul li a {
-  text-decoration: none;
   color: hsl(233, 8%, 62%);
 }
 
 nav ul li a:hover{
   color: hsl(233, 26%, 24%);
-
 }
 
 .btn-request {
@@ -63,11 +61,9 @@ nav ul li a:hover{
 }
 .collapse-img{
   display: none;
-  visibility: none;
 }
 .close{
   display: none;
-  visibility: none;
 }
 
 .btn-request:hover {
@@ -113,9 +109,6 @@ nav ul li a:hover{
   max-width: 45%;
 }
 @media only screen and (max-width: 900px) {
-  body {
-    overflow-x: hidden;
-  }
   .bg-intro {
     position: relative;
   }
@@ -334,7 +327,6 @@ nav ul li a:hover{
 }
 
 .article a {
-  text-decoration: none;
   color: hsl(233, 26%, 24%);
 }
 .article a:hover {
